@@ -15,9 +15,9 @@
 }
 
 .contenedor-formulario {
-	border: 1px red solid;
+	/*border: 1px red solid;*/
 	height: 500px;
-	width: 710px;
+	width: 600px;
 	position: relative;
 	top: 80px;
 	left: 50px;
@@ -36,6 +36,38 @@
 	-moz-border-radius: 15px 15px 0 0;
 	-ms-border-radius: 15px 15px 0 0;
 	-o-border-radius: 15px 15px 0 0;
+}
+
+.titulo-formulario{
+	font-size:15px;
+	margin-left: 7.8px;
+}
+
+.inputs{
+	width:20rem;
+	height:25px;
+	background: #c4c4c4c4 ;
+	border:none;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	-ms-border-radius: 5px;
+	-o-border-radius: 5px;
+	margin-left: 7px;
+}
+
+.btn-primary{
+	height: 38px;
+	width: 7rem;
+	background: #70e000;
+	border: none;
+	border-radius:5px;
+	-webkit-border-radius:5px;
+	-moz-border-radius:5px;
+	-ms-border-radius:5px;
+	-o-border-radius:5px;
+	margin: 50px 0 0 15rem;
+	cursor: pointer;
 }
 
 .footer {
