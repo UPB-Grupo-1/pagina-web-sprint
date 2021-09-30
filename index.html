@@ -19,32 +19,30 @@
 	<main class="contenedor">
 		<section class="contenedor-formulario">
 			<h3 class="title-form">Registro</h3>
-			<form action="" id="form-registro">
-				<label for="" id="tipo-de-documento">
-					<h3 class="titulo-formulario">Tipo de documento</h3>
-					<select class="inputs"name="" id="">
-						<option value=""></option>
-						<option value="">Tarjeta de identidad</option>
-						<option value="">Cédulas</option>
-						<option value="">Pasaporte</option>
-						<option value="">Tarjeta de residencia</option>
-					</select>
-					</label>
-					<label for="" id="numero-de-documento">
-						<h3 class="titulo-formulario">Número de documento </h3> 
-						<input class="inputs" type="number" id="numero-de-documento">
-					</label>
-					<label for="" id="correo">
-						<h3 class="titulo-formulario">Correo</h3> 
-						<input class="inputs" type="email" id="correo">
-					</label>
-					<label for="" id="contrasena">
-						<h3 class="titulo-formulario">Contraseña</h3> 
-						<input class="inputs" type="password" id="contrasena">
-					</label> <br>
-				<button class="btn btn-primary" id="btn-registrar">
-					Registrar
-				</button>
+			<form id="form-registro" action="#">
+				<label for="opcion-documento">Tipo de documento</label>
+				<br>
+				<select class="inputs" id="opcion-documento" name="opcion-documento">
+					<option value=""></option>
+					<option value="TI">Tarjeta de identidad</option>
+					<option value="CC">Cédulas</option>
+					<option value="PA">Pasaporte</option>
+					<option value="TR">Tarjeta de residencia</option>
+				</select>
+				<br>
+				<label class="titulo-formulario" for="numero-de-documento">Número de documento</label> 
+				<br>
+				<input class="inputs" id="numero-de-documento" type="number">
+				<br>
+				<label class="titulo-formulario" for="correo">Correo</label>
+				<br>
+				<input class="inputs" id="correo" type="text">
+				<br>
+				<label class="titulo-formulario" for="contrasena">Contraseña</label> 
+				<br>
+				<input class="inputs" id="contrasena" type="password">
+				<br>
+				<button type="submit" class="btn btn-primary" id="btn-registrar">Registrar</button>		
 			</form>
 		</section>
 	</main>
