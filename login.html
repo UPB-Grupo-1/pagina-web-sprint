@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Login</title>
+	<!-- NORMALIZE -->
+	<link rel="stylesheet" | href="./css/normalize.css">
+	<!-- STYLES -->
+	<link rel="stylesheet" | href="./css/estilos.css">
+	<!-- SCRIPTS -->
+	<script src="./js/login.js" | defer></script>
+</head>
+<body>
+	<!-- ENCABEZADO -->
+	<header class="encabezado">
+		<div class="contenedor-header">
+			<h3>Logo</h3>
+		</div>
+	</header>
+	<!-- FORM -->
+	<main class="contenedor">
+		<section class="contenedor-formulario">
+			<h3 class="title-form">Registro</h3>
+			<form id="form-Login" action="#">
+				<label for="correo">Correo</label>
+				<br>
+				<input id="correo" | type="text">
+				<br>
+				<label for="contrasena">Contraseña</label>
+				<br>
+				<input id="contrasena" | type="password">
+				<br>
+				<input type="checkbox">
+				<input class="captcha" | type="text" | placeholder="captcha" >
+				<button type="submit" class="btn btn-primary" id="btn-login">Registrar</button>		
+			</form>
+		</section>
+	</main>
+	<!-- FOOTER -->
+	<footer class="footer">
+		<h3>Footer</h3>
+	</footer>
+</body>
+</html>

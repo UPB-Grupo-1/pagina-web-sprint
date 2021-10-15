@@ -81,3 +81,29 @@ label{
 	font-size: 24px;
 	margin: 0;
 }
+
+/* PAGE LOGIN */
+#correo,
+#contrasena {
+	width:20rem;
+	height:25px;
+	background: #c4c4c4c4 ;
+	border:none;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	-ms-border-radius: 5px;
+	-o-border-radius: 5px;
+	margin:7px 0 7px 7px;
+}
+
+.captcha {
+	width: 20rem;
+	height:25px;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	-ms-border-radius: 5px;
+	-o-border-radius: 5px;
+	margin:7px 0 7px 7px;
+}
