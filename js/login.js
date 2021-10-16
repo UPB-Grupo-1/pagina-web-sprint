@@ -1,7 +1,12 @@
 let registros = []
 
+let email = document.getElementById('correo').value
 function login() {
-	
+	if (email == registros.length()) {
+		return true
+	}else {
+		return false
+	}
 }
 
 function agregarRegistro() {
